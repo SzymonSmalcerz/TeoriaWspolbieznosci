@@ -22,6 +22,13 @@ public class P_gettingFinalValue extends Production{
 		divider = matrix[indexOfRow][indexOfRow];
 		matrix[indexOfRow][n-1] /= divider; //FINAL RESULT
 		matrix[indexOfRow][indexOfRow] = 1.0;
+		
+		
+		for(int i=0;i<n;i++) {
+			if(matrix[indexOfRow][i] < Math.pow(10, -10)) {
+				matrix[indexOfRow][i] = 0;
+			}
+		}
 		return;
 			
 		
