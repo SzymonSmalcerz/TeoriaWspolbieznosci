@@ -25,7 +25,7 @@ public class P_gettingFinalValue extends Production{
 		
 		
 		for(int i=0;i<n;i++) {
-			if(matrix[indexOfRow][i] < Math.pow(10, -10)) {
+			if(Math.abs(matrix[indexOfRow][i]) < Math.pow(10, -10)) {
 				matrix[indexOfRow][i] = 0;
 			}
 		}
