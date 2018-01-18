@@ -1,0 +1,3 @@
+Macierz : 5 x 5
+1 foata class:
+	 | P_gettingFinalValue | P_gettingFinalValue | P_gettingFinalValue | P_gettingFinalValue | P_gettingFinalValue | 

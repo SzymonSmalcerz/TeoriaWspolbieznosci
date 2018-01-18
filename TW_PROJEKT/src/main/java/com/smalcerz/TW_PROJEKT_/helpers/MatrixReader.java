@@ -1,16 +1,27 @@
 package com.smalcerz.TW_PROJEKT_.helpers;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
 public class MatrixReader {
 	
-	public static double[][] getMatrix(){
+	
+	private static MatrixReader instance = new MatrixReader();
+	private FileHandler fileHandler;
+	private BufferedWriter writer;
+	
+	private MatrixReader() {
+		this.fileHandler = FileHandler.getInstance();
+		this.writer = this.fileHandler.getWriter();
+	}
+	
+	public double[][] getMatrix() throws IOException{ 
 		
 		String line = "";
-		String fileName = "/home/szymcio/eclipse-workspace/TW_PROJEKT_FINAL/src/main/java/com/smalcerz/TW_PROJEKT_FINAL/asd.txt";
+		String fileName = "/home/szymcio/TeoriaWspolbieznosci/TW_PROJEKT/src/main/java/com/smalcerz/TW_PROJEKT_FINAL/asd.txt";
 		double matrix[][] = null;
 		try {
             // FileReader reads text files in the default encoding.
@@ -66,20 +77,25 @@ public class MatrixReader {
         catch(IOException ex) {
             System.out.println(
                 "Error reading file '" 
-                + fileName + "'");                  
-            // Or we could just do this:  
-            // ex.printStackTrace();
+                + fileName + "'");       
         } catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+
+		
+		System.out.println("\n\tWCZYTANA MACIERZ : \n\n");
+		
+		this.writer.write("\n\tWCZYTANA MACIERZ : \n\n");
 		printMatrix(matrix);
 		return matrix;
 	}
 	
-	private static double[] getDoubleArray(String strLine) {
+	private double[] getDoubleArray(String strLine) {
+		
+		
 	    double[] a;
-	    String[] split = strLine.split(" "); //split the line at the ',' and ')' characters
+	    String[] split = strLine.split(" "); //split
 	    a = new double[split.length];
 	    for(int i = 0; i < a.length; i++){
 	        a[i] = Double.parseDouble(split[i]); //get the double value of the String
@@ -90,21 +106,31 @@ public class MatrixReader {
 	}
 	
 	
-	public static void printMatrix(double[][] matrix) {
-		
-		System.out.println("\n\tWCZYTANA MACIERZ : \n\n");
+	public void printMatrix(double[][] matrix) throws IOException {
 		
 		for(int w=0;w<matrix.length;w++) {
 			System.out.print("\t");
 			for(int k=0;k<matrix[0].length;k++) {
+				String str = "";
 				if(k!=matrix[0].length -1 ) {
-					System.out.print(matrix[w][k] + " ");
+					str = matrix[w][k] + " ";
 				}
 				else {
-					System.out.print("| " + matrix[w][k]);
+					str = "| " + matrix[w][k];
 				}
+				System.out.print(str);
+
+				this.writer.write(str);
 			}
 			System.out.println();
+			this.writer.newLine();
 		}
+	}
+	
+	
+	public static MatrixReader getInstance() {
+		
+		return instance;
+		
 	}
 }

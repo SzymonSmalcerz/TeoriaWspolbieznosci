@@ -16,9 +16,9 @@ public class P_substraction  extends Production {
 		this.matrix = matrix;
 		this.indexOfSubstractionRow = indexOfSubstractionRow;
 		this.indexOfSubstractedRow = indexOfSubstractedRow;
-		this.divider = matrix[indexOfSubstractionRow][indexOfSubstractionRow] / matrix[indexOfSubstractedRow][indexOfSubstractedRow];
+		this.divider = matrix[indexOfSubstractionRow][indexOfSubstractionRow] / matrix[indexOfSubstractedRow][indexOfSubstractionRow];
 	}
-
+ 
 
 
 	@Override

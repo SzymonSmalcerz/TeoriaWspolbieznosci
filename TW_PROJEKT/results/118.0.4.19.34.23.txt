@@ -1,0 +1,19 @@
+
+	WCZYTANA MACIERZ : 
+
+0.0 0.0 0.0 0.0 0.0 | 0.0
+0.0 0.0 0.0 0.0 0.0 | 0.0
+0.0 0.0 0.0 0.0 0.0 | 0.0
+0.0 0.0 0.0 0.0 0.0 | 0.0
+0.0 0.0 0.0 0.0 0.0 | 0.0
+Macierz : 5 x 5
+1 foata class:
+	 | P_gettingFinalValue | P_gettingFinalValue | P_gettingFinalValue | P_gettingFinalValue | P_gettingFinalValue | 
+
+	WYLICZONA MACIERZ : 
+
+0.0 0.0 0.0 0.0 0.0 | 0.0
+0.0 0.0 0.0 0.0 0.0 | 0.0
+0.0 0.0 0.0 0.0 0.0 | 0.0
+0.0 0.0 0.0 0.0 0.0 | 0.0
+0.0 0.0 0.0 0.0 0.0 | 0.0
