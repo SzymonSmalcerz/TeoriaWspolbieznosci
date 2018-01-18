@@ -1,8 +1,8 @@
-package com.smalcerz.TW_PROJEKT_FINAL;
+package com.smalcerz;
 
 import java.io.IOException;
 
-import com.smalcerz.TW_PROJEKT_FINAL.executor.Executor;
+import com.smalcerz.executor.Executor;
 
 public class Main {
 	

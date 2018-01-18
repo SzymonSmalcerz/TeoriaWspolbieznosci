@@ -1,4 +1,4 @@
-package com.smalcerz.TW_PROJEKT_.helpers;
+package com.smalcerz.helpers;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -18,7 +18,7 @@ public class MatrixReader {
 		this.fileHandler = FileHandler.getInstance();
 		this.writer = this.fileHandler.getWriter();
 		String line = "";
-		String fileName = "./src/main/java/com/smalcerz/TW_PROJEKT_FINAL/asd.txt";
+		String fileName = "./src/main/java/com/smalcerz/asd.txt";
 		try {
             // FileReader reads text files in the default encoding.
             FileReader fileReader = 

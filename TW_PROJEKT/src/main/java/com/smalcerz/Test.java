@@ -1,4 +1,4 @@
-package com.smalcerz.TW_PROJEKT_FINAL;
+package com.smalcerz;
 
 public class Test {
 	public static void main(String[] args) {

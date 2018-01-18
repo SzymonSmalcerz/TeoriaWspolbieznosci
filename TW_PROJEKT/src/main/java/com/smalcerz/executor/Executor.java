@@ -1,12 +1,13 @@
-package com.smalcerz.TW_PROJEKT_FINAL.executor;
+package com.smalcerz.executor;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
-import com.smalcerz.TW_PROJEKT_.helpers.FileHandler;
-import com.smalcerz.TW_PROJEKT_.helpers.MatrixReader;
-import com.smalcerz.TW_PROJEKT_FINAL.FoatClass;
-import com.smalcerz.TW_PROJEKT_FINAL.production.P_gettingFinalValue;
-import com.smalcerz.TW_PROJEKT_FINAL.production.P_substraction;
+
+import com.smalcerz.FoatClass;
+import com.smalcerz.helpers.FileHandler;
+import com.smalcerz.helpers.MatrixReader;
+import com.smalcerz.production.P_gettingFinalValue;
+import com.smalcerz.production.P_substraction;
 
 public class Executor {
 	
@@ -53,6 +54,11 @@ public class Executor {
 					
 					if(matrix[j][i] != 0) { 
 						indexOfSecondRow = j;
+						continue;
+					}
+					
+					if(j==n-1) {
+						throw new Error("MATRIX WITHOUT SOLUTION");
 					}
 				}
 				

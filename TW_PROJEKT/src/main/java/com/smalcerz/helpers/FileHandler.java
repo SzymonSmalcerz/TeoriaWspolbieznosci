@@ -1,4 +1,4 @@
-package com.smalcerz.TW_PROJEKT_.helpers;
+package com.smalcerz.helpers;
 
 import java.io.BufferedWriter;
 import java.io.File;

@@ -1,10 +1,11 @@
-package com.smalcerz.TW_PROJEKT_FINAL;
+package com.smalcerz;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
-import com.smalcerz.TW_PROJEKT_FINAL.production.Production;
+
+import com.smalcerz.production.Production;
 
 
 
