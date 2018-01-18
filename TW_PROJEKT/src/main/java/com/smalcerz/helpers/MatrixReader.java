@@ -30,9 +30,9 @@ public class MatrixReader {
                 new BufferedReader(fileReader);
             
             String firstLine = bufferedReader.readLine();
-            if(firstLine.length() > 1) {
-            	throw new Exception("bad format of input");
-            }
+//            if(firstLine.length() > 1) {
+//            	throw new Exception("bad format of input");
+//            }
             int n = Integer.parseInt(firstLine);
             
             matrix = new double[n][n+1];

@@ -1,0 +1,25 @@
+
+	WCZYTANA MACIERZ : 
+
+1.0 1.0 1.0 3.0 | 4.0
+2.0 1.0 -1.0 1.0 | 1.0
+3.0 -1.0 -1.0 2.0 | -3.0
+-1.0 2.0 3.0 -199.28 | 4.0
+Macierz : 4 x 4
+1 foata class:
+	 | P_substraction | P_substraction | P_substraction | 
+2 foata class:
+	 | P_substraction | P_substraction | P_substraction | 
+3 foata class:
+	 | P_substraction | P_substraction | P_substraction | 
+4 foata class:
+	 | P_substraction | P_substraction | P_substraction | 
+5 foata class:
+	 | P_gettingFinalValue | P_gettingFinalValue | P_gettingFinalValue | P_gettingFinalValue | 
+
+	WYLICZONA MACIERZ : 
+
+1.0 0.0 0.0 0.0 | 0.22000443011493687
+0.0 1.0 0.0 0.0 | 2.1220004430114936
+0.0 0.0 1.0 0.0 | 1.5860057591494179
+0.0 0.0 0.0 1.0 | 0.023996455908050503

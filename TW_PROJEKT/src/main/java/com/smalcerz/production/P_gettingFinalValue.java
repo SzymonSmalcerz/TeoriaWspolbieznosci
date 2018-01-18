@@ -19,14 +19,14 @@ public class P_gettingFinalValue extends Production{
 		
 		
 		double divider;
-		for(int i=0;i<n;i++) {
-			if(matrix[indexOfRow][i] != 0) {
-				divider = matrix[indexOfRow][i];
-				matrix[indexOfRow][n-1] /= divider; //FINAL RESULT
-				matrix[indexOfRow][i] = 1.0;
-				return;
-			}
-		}
+		divider = matrix[indexOfRow][indexOfRow];
+		matrix[indexOfRow][n-1] /= divider; //FINAL RESULT
+		matrix[indexOfRow][indexOfRow] = 1.0;
+		return;
+			
+		
+		
+		
 	}
 	
 	
