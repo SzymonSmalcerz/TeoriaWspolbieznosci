@@ -10,19 +10,15 @@ public class MatrixReader {
 	
 	
 	private static MatrixReader instance = new MatrixReader();
-	private FileHandler fileHandler;
+	private FileHandler fileHandler; 
 	private BufferedWriter writer;
+	private double [][] matrix;
 	
 	private MatrixReader() {
 		this.fileHandler = FileHandler.getInstance();
 		this.writer = this.fileHandler.getWriter();
-	}
-	
-	public double[][] getMatrix() throws IOException{ 
-		
 		String line = "";
-		String fileName = "/home/szymcio/TeoriaWspolbieznosci/TW_PROJEKT/src/main/java/com/smalcerz/TW_PROJEKT_FINAL/asd.txt";
-		double matrix[][] = null;
+		String fileName = "./src/main/java/com/smalcerz/TW_PROJEKT_FINAL/asd.txt";
 		try {
             // FileReader reads text files in the default encoding.
             FileReader fileReader = 
@@ -86,9 +82,20 @@ public class MatrixReader {
 		
 		System.out.println("\n\tWCZYTANA MACIERZ : \n\n");
 		
-		this.writer.write("\n\tWCZYTANA MACIERZ : \n\n");
-		printMatrix(matrix);
-		return matrix;
+		try {
+			this.writer.write("\n\tWCZYTANA MACIERZ : \n\n");
+
+			printMatrix(matrix);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public double[][] getMatrix() throws IOException { 
+		
+		return this.matrix;
+		
 	}
 	
 	private double[] getDoubleArray(String strLine) {

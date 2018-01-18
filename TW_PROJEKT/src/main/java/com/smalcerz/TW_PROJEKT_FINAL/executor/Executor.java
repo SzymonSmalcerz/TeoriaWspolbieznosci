@@ -25,7 +25,7 @@ public class Executor {
 		this.matrixReader = MatrixReader.getInstance();
 		this.matrix = this.matrixReader.getMatrix();
 		
-		this.n = this.matrix.length;
+		this.n = this.matrix.length; 
 		
 		this.writer = FileHandler.getInstance().getWriter();
 		writer.write("Macierz : " + this.n + " x " + this.n);

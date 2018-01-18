@@ -21,7 +21,7 @@ public class FileHandler {
 		try {
 			
 			
-			Date date = new Date();
+			Date date = new Date(); 
 			
 			String dateString = Integer.toString(date.getYear())  + "." + Integer.toString(date.getMonth()) 
 			+ "." + Integer.toString(date.getDay()) + "." +
