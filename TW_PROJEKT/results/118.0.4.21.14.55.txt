@@ -1,0 +1,49 @@
+
+	WCZYTANA MACIERZ : 
+
+20255.0 -18071.0 10688.0 17131.0 11526.0 9751.0 -12468.0 7908.0 13885.0 2858.0 | 2390.0
+-18328.0 -7713.0 -16909.0 8737.0 4394.0 2975.0 22778.0 18646.0 -7985.0 -6986.0 | 9701.0
+-2629.0 14723.0 3895.0 -1159.0 -7845.0 -5349.0 18882.0 -2749.0 1973.0 -2288.0 | 1542.0
+16764.0 21201.0 4272.0 17833.0 21713.0 10613.0 -5061.0 17869.0 7656.0 19518.0 | -8224.0
+-1858.0 18067.0 -15665.0 20549.0 6812.0 -13999.0 19401.0 13993.0 22276.0 -5302.0 | -16581.0
+8438.0 -4933.0 -8189.0 12952.0 11230.0 -10656.0 -601.0 -12048.0 17522.0 4979.0 | 15351.0
+3066.0 4346.0 16262.0 20815.0 20133.0 -10997.0 8847.0 -5044.0 1958.0 -3703.0 | -11320.0
+-16977.0 -1362.0 -20335.0 -5664.0 11938.0 12750.0 -17194.0 6324.0 -3027.0 -21726.0 | -302.0
+22080.0 -2333.0 7892.0 21324.0 22127.0 -23814.0 -12364.0 -19257.0 17329.0 7241.0 | -16280.0
+-18807.0 -14555.0 14824.0 18117.0 17847.0 11190.0 -16821.0 -413.0 4855.0 -6355.0 | -2385.0
+Macierz : 10 x 10
+1 foata class:
+	 | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | 
+2 foata class:
+	 | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | 
+3 foata class:
+	 | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | 
+4 foata class:
+	 | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | 
+5 foata class:
+	 | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | 
+6 foata class:
+	 | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | 
+7 foata class:
+	 | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | 
+8 foata class:
+	 | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | 
+9 foata class:
+	 | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | 
+10 foata class:
+	 | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | P_substraction | 
+11 foata class:
+	 | P_gettingFinalValue | P_gettingFinalValue | P_gettingFinalValue | P_gettingFinalValue | P_gettingFinalValue | P_gettingFinalValue | P_gettingFinalValue | P_gettingFinalValue | P_gettingFinalValue | P_gettingFinalValue | 
+
+	WYLICZONA MACIERZ : 
+
+1.0 0.0 0.0 5.469827738480518E-11 0.0 0.0 0.0 0.0 0.0 0.0 | -0.5778014205683704
+-5.00851468324981E-12 1.0 0.0 -8.693336634794778E-11 0.0 0.0 0.0 0.0 0.0 0.0 | -1.3415496668228495
+-3.988287385801015E-13 0.0 1.0 -8.300655716966302E-12 0.0 0.0 0.0 0.0 1.1368683772161603E-13 0.0 | 0.6176981910468144
+1.6293950132414367E-10 0.0 0.0 1.0 0.0 0.0 2.9103830456733704E-11 0.0 0.0 -2.3283064365386963E-10 | -3.8824620792825866
+1.4015623511545019E-11 0.0 0.0 2.405066302597817E-10 1.0 0.0 0.0 0.0 0.0 2.9103830456733704E-11 | 2.7816907986943864
+-1.7557669305290929E-12 0.0 0.0 -2.938863083843704E-11 0.0 1.0 0.0 0.0 0.0 0.0 | 0.5227540233053377
+3.328949514453166E-11 0.0 0.0 5.215028249499828E-10 0.0 0.0 1.0 0.0 -1.4551915228366852E-11 0.0 | 1.8855653469919704
+5.930600266256937E-12 0.0 0.0 9.972658091169853E-11 0.0 0.0 0.0 1.0 0.0 7.275957614183426E-12 | 0.11679160328432206
+-1.9168605506123446E-12 0.0 0.0 -3.608260349049094E-11 0.0 0.0 0.0 0.0 1.0 0.0 | 2.3205500625632616
+3.637978807091713E-12 0.0 0.0 8.440571446900915E-11 0.0 0.0 0.0 0.0 0.0 1.0 | 1.0372231842442037
